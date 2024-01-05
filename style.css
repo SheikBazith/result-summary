@@ -33,7 +33,6 @@ body{
 main{
     display: flex;
     width: 400px;
-    background-color: aquamarine;
     height: 280px;
     box-shadow: 10px 10px 20px rgba(62, 83, 243, 0.215);
     border-radius: 15px;
@@ -170,15 +169,21 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         width: 60%;
+        border-radius: 0;
     }
     .left-card{
         width: 100%;
-        
+        border-radius: 0 0 5% 5%;
+        padding-top: 1rem;
+    }
+    .circle{
+        margin: 1rem 0 1rem 0;
     }
     .right-card{
         width: 100%;
+        margin-bottom: 1rem;
     }
     .left-card p{
         height: 100%;
